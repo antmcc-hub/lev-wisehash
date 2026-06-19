@@ -1,0 +1,12 @@
+LEV WiseHash Marketplace
+Copyright 2026 Leveragentic AI
+
+This package adapts workflow-contract ideas from the following Apache-2.0
+WiseHash public repositories:
+
+- https://github.com/wisehash-llc/dispatch-protocol
+- https://github.com/wisehash-llc/mcp-patterns
+
+WiseHash is operated by Ashton Papi. The original WiseHash repositories remain
+the upstream reference inputs. This package rewrites selected dispatch and MCP
+patterns into LEV/Codex/Cowork plugin and skill conventions.

@@ -6,6 +6,8 @@
     "name": "Leveragentic AI",
     "url": "https://leveragentic.ai"
   },
+  "repository": "https://github.com/antmcc-hub/lev-wisehash",
+  "license": "Apache-2.0",
   "keywords": [
     "leveragentic",
     "wisehash",

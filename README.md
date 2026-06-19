@@ -50,6 +50,16 @@ Inspired by and adapted from:
 
 This repo rewrites those patterns into LEV's skill/plugin conventions and hardens the MCP guidance for LEV's secret-handling and production-operation rules.
 
+## License
+
+This package is Apache-2.0. WiseHash's public source repos are also Apache-2.0, not MIT.
+
+See:
+
+- `LICENSE`
+- `NOTICE`
+- `docs/licensing-note.md`
+
 ## Security Rules
 
 - No secrets in chat, logs, docs, screenshots, `.mcp.json`, or examples.
