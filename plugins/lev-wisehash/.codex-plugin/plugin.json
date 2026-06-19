@@ -1,0 +1,40 @@
+{
+  "name": "lev-wisehash",
+  "version": "0.1.0",
+  "description": "LEV adaptation of WiseHash dispatch and MCP contract patterns for bounded delegation, review, verification-first specs, and wrapper discipline.",
+  "author": {
+    "name": "Leveragentic AI",
+    "email": "ant@leveragentic.ai",
+    "url": "https://leveragentic.ai"
+  },
+  "homepage": "https://leveragentic.ai",
+  "repository": "https://github.com/antmcc-hub/lev-plugins",
+  "license": "UNLICENSED",
+  "keywords": [
+    "wisehash",
+    "dispatch",
+    "mcp",
+    "delegation",
+    "verification",
+    "leveragentic"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lev WiseHash",
+    "shortDescription": "Workflow contracts for dispatch, review, bounded implementation, verification specs, and MCP wrappers.",
+    "longDescription": "A LEV-owned adaptation of WiseHash public pattern libraries. It packages the dispatch brief/result mirror, cross-model review discipline, bounded implementation guardrails, verification-first spec authoring, and MCP wrapper audit rules as installable Codex skills.",
+    "developerName": "Leveragentic AI",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://leveragentic.ai",
+    "defaultPrompt": [
+      "Create a dispatch packet for this delegated agent run.",
+      "Run a cross-model review contract on this spec.",
+      "Audit this MCP wrapper before we adopt it."
+    ],
+    "brandColor": "#2dd4bf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LEV Dispatch Result",
+  "type": "object",
+  "required": ["verdict", "confidence", "findings", "required_amends", "verification_evidence", "halt_markers_fired"],
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": ["PASS", "PASS-WITH-CONCERNS", "FAIL", "GO", "GO-WITH-AMENDS", "REJECT"]
+    },
+    "confidence": {
+      "type": "object",
+      "required": ["level", "basis"],
+      "properties": {
+        "level": { "type": "string", "enum": ["high", "medium", "low"] },
+        "basis": { "type": "string" }
+      }
+    },
+    "findings": { "type": "array" },
+    "required_amends": { "type": "array", "items": { "type": "string" } },
+    "verification_evidence": { "type": "array", "items": { "type": "string" } },
+    "halt_markers_fired": { "type": "array", "items": { "type": "string" } }
+  }
+}

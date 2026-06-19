@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LEV MCP Wrapper Audit",
+  "type": "object",
+  "required": ["transport_decision", "credential_chain", "identity_attribution", "runtime_boundary", "reload_rule", "verdict"],
+  "properties": {
+    "transport_decision": {
+      "type": "string",
+      "enum": ["http-native", "stdio-local", "stdio-over-approved-remote", "reject-bridge"]
+    },
+    "credential_chain": { "type": "string" },
+    "identity_attribution": { "type": "string" },
+    "runtime_boundary": { "type": "string" },
+    "reload_rule": { "type": "string" },
+    "verdict": {
+      "type": "string",
+      "enum": ["GO", "GO-WITH-AMENDS", "REJECT"]
+    }
+  }
+}

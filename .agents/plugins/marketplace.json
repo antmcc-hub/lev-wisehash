@@ -1,0 +1,20 @@
+{
+  "name": "lev-wisehash",
+  "interface": {
+    "displayName": "LEV WiseHash"
+  },
+  "plugins": [
+    {
+      "name": "lev-wisehash",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lev-wisehash"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

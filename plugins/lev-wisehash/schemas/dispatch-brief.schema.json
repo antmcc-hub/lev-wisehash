@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LEV Dispatch Brief",
+  "type": "object",
+  "required": ["shape", "variant", "profile", "source", "scope", "output", "quality_bar", "blocked_conditions"],
+  "properties": {
+    "shape": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D", "E"]
+    },
+    "variant": { "type": "string" },
+    "profile": { "type": "string" },
+    "source": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "scope": {
+      "type": "object",
+      "required": ["tier", "allowed", "off_limits"],
+      "properties": {
+        "tier": { "type": "string", "enum": ["tier-1", "tier-2", "tier-3"] },
+        "allowed": { "type": "array", "items": { "type": "string" } },
+        "off_limits": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "output": { "type": "string" },
+    "quality_bar": { "type": "array", "items": { "type": "string" } },
+    "blocked_conditions": { "type": "array", "items": { "type": "string" } }
+  }
+}

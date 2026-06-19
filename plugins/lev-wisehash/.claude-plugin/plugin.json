@@ -1,0 +1,17 @@
+{
+  "name": "lev-wisehash",
+  "version": "0.1.0",
+  "description": "LEV adaptation of WiseHash dispatch and MCP contract patterns. Use for small-adapter workflow contracts, not a new orchestration runtime.",
+  "author": {
+    "name": "Leveragentic AI",
+    "url": "https://leveragentic.ai"
+  },
+  "keywords": [
+    "leveragentic",
+    "wisehash",
+    "dispatch",
+    "mcp",
+    "delegation",
+    "verification"
+  ]
+}
